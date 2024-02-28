@@ -105,6 +105,13 @@ ul {
   color: #404bbf;
 }
 
+.link ::after {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  
+}
+
 /* address links */
 
 .address .a-link {
