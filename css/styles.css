@@ -226,6 +226,18 @@ overflow: hidden;
 .benefits-card {
   width: calc((100% - 72px) / 4);
 }
+.benefits-icons {
+background-color: #f4f4fd;
+width: 100%;
+min-height: 112px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid #8e8f99;
+border-radius: 4px;
+margin-bottom: 8px;
+
+}
 
 
 .section-subtitle {
@@ -246,6 +258,18 @@ overflow: hidden;
 }
 
 /* Our Team */
+
+.team-icons {
+background-color: #4d5ae5;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+border-radius: 4px;
+margin-bottom: 8px;
+
+}
 
 .team-card {
   background-color: #ffffff;
