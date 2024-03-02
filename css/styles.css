@@ -11,7 +11,8 @@
   bottom: -1px;
   height: 4px;
   background-color: #404bbf;
-  border-radius: 4px;
+  border-radius: 2px;
+  width: 100%;
 }
 
 body {
@@ -331,6 +332,12 @@ ul {
 
 .portfolio-card {
   width: calc(100% - 48px) / 3;
+}
+
+portfolio-card:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  cursor: pointer;
 }
 
 .portfolio-card-text {
