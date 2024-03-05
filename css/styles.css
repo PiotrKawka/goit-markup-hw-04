@@ -132,6 +132,7 @@ body {
 .hero {
   background: #2e2f42;
   padding: 188px 0;
+  max-width: 1440px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -139,6 +140,7 @@ body {
     url(../images/peopleoffice.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .hero .container {
@@ -172,6 +174,9 @@ body {
   border-radius: 4px;
   padding: 16px 32px;
   border: none;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-button:hover,
