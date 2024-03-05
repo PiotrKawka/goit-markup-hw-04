@@ -212,8 +212,12 @@ body {
   background: #f4f4fd;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  width: 264px;
+  width: 100%;
   height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
 }
 
 .section-subtitle {
@@ -241,8 +245,33 @@ body {
 }
 
 .team-card-text {
-  padding: 32px 0;
+  padding: 32px 16px;
   text-align: center;
+}
+
+.team-card .article {
+  margin-bottom: 8px;
+}
+
+.team-icons-item {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+
+.team-icons-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-icons-list {
+  display: flex;
+  gap: 24px;
 }
 
 .section-our-team {
